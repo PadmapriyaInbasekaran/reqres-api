@@ -16,10 +16,11 @@ import static io.restassured.RestAssured.given;
 public class UserEndpoints {
     public static RequestLoggingFilter requestLoggingFilter;
     public static ResponseLoggingFilter responseLoggingFilter;
+
     public static void createUser(User Payload) throws FileNotFoundException {
 
-        OutputStream outputStream =new FileOutputStream("PostData.txt",true); //use your OutputStream that will write where you need it
-        PrintStream printStream = new PrintStream(outputStream,true);
+        OutputStream outputStream = new FileOutputStream("PostData.txt", true); //use your OutputStream that will write where you need it
+        PrintStream printStream = new PrintStream(outputStream, true);
         requestLoggingFilter = new RequestLoggingFilter(printStream);
         responseLoggingFilter = new ResponseLoggingFilter(printStream);
         Response response = given().log().all()
@@ -35,14 +36,13 @@ public class UserEndpoints {
     }
 
     public static void getUser(int id) throws FileNotFoundException {
-        OutputStream outputStream =new FileOutputStream("GetData.txt",true); //use your OutputStream that will write where you need it
-        PrintStream printStream = new PrintStream(outputStream,false);
+        OutputStream outputStream = new FileOutputStream("GetData.txt", true); //use your OutputStream that will write where you need it
+        PrintStream printStream = new PrintStream(outputStream, false);
         requestLoggingFilter = new RequestLoggingFilter(printStream);
         responseLoggingFilter = new ResponseLoggingFilter(printStream);
         Response response = given()
                 .filter(requestLoggingFilter)
                 .filter(responseLoggingFilter)
-                // .pathParam("userid",id)
                 .when()
                 .get(Constants.get_url + id);
         response.then().log().all();
@@ -51,8 +51,8 @@ public class UserEndpoints {
     }
 
     public static void updateUser(User Payload) throws FileNotFoundException {
-        OutputStream outputStream =new FileOutputStream("UpdateData.txt",true); //use your OutputStream that will write where you need it
-        PrintStream printStream = new PrintStream(outputStream,false);
+        OutputStream outputStream = new FileOutputStream("UpdateData.txt", true); //use your OutputStream that will write where you need it
+        PrintStream printStream = new PrintStream(outputStream, false);
         requestLoggingFilter = new RequestLoggingFilter(printStream);
         responseLoggingFilter = new ResponseLoggingFilter(printStream);
         Response response = given().log().all()
@@ -67,14 +67,13 @@ public class UserEndpoints {
     }
 
     public static void deleteUser(int id) throws FileNotFoundException {
-        OutputStream outputStream =new FileOutputStream("DeleteData.txt",true); //use your OutputStream that will write where you need it
-        PrintStream printStream = new PrintStream(outputStream,false);
+        OutputStream outputStream = new FileOutputStream("DeleteData.txt", true); //use your OutputStream that will write where you need it
+        PrintStream printStream = new PrintStream(outputStream, false);
         requestLoggingFilter = new RequestLoggingFilter(printStream);
         responseLoggingFilter = new ResponseLoggingFilter(printStream);
         Response response = given()
                 .filter(requestLoggingFilter)
                 .filter(responseLoggingFilter)
-//                .pathParam("userid",id)
                 .when()
                 .delete(Constants.delete_url + id);
         response.then().log().all();

@@ -13,7 +13,8 @@ import java.io.FileNotFoundException;
 
 public class DataDrivenTest extends ReportGenerator {
     User userData;
-    @Test(priority = 1, dataProvider = "Data", dataProviderClass = XLDataProvider.class,groups = {"smoke"})
+
+    @Test(priority = 1, dataProvider = "Data", dataProviderClass = XLDataProvider.class, groups = {"smoke"})
     public void testPostUser(String id, String name, String job) throws FileNotFoundException {
 
         userData = new User();
@@ -21,32 +22,32 @@ public class DataDrivenTest extends ReportGenerator {
         userData.setName(name);
         userData.setJob(job);
         UserEndpoints.createUser(userData);
-        test.log(LogStatus.INFO,"Post user details");
+        test.log(LogStatus.INFO, "Post user details");
 
     }
 
-   @Test(priority = 2, dataProvider = "UserId", dataProviderClass = XLDataProvider.class,groups = {"smoke"})
+    @Test(priority = 2, dataProvider = "UserId", dataProviderClass = XLDataProvider.class, groups = {"smoke"})
     public void testGetUser(String id) throws FileNotFoundException {
-       userData = new User();
-       userData.setId(Integer.parseInt(id));
-       UserEndpoints.getUser(userData.getId());
-       test.log(LogStatus.INFO,"Get user details");
+        userData = new User();
+        userData.setId(Integer.parseInt(id));
+        UserEndpoints.getUser(userData.getId());
+        test.log(LogStatus.INFO, "Get user details");
     }
 
-    @Test(priority = 3, dataProvider = "UserId", dataProviderClass = XLDataProvider.class,groups = {"smoke"})
+    @Test(priority = 3, dataProvider = "UserId", dataProviderClass = XLDataProvider.class, groups = {"smoke"})
     public void testUpdateUser(String id) throws FileNotFoundException {
         userData = new User();
         userData.setId(Integer.parseInt(id));
         this.userData.setName("Padmapriya");
         UserEndpoints.updateUser(userData);
-        test.log(LogStatus.INFO,"Update user detail");
+        test.log(LogStatus.INFO, "Update user detail");
     }
 
-    @Test(priority = 4, dataProvider = "UserId", dataProviderClass = XLDataProvider.class,groups = {"smoke"})
+    @Test(priority = 4, dataProvider = "UserId", dataProviderClass = XLDataProvider.class, groups = {"smoke"})
     public void testDeleteUser(String id) throws FileNotFoundException {
         userData = new User();
         userData.setId(Integer.parseInt(id));
         UserEndpoints.deleteUser(userData.getId());
-        test.log(LogStatus.INFO,"Delete user details");
+        test.log(LogStatus.INFO, "Delete user details");
     }
 }

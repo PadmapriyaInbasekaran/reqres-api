@@ -1,4 +1,5 @@
 package api.utilities;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import org.testng.annotations.AfterMethod;
@@ -12,6 +13,7 @@ import java.lang.reflect.Method;
 public class ReportGenerator {
     public static ExtentReports extent;
     public static ExtentTest test;
+
     @BeforeSuite
     public void beforeSuite() {
         String USER_DIRECTORY = System.getProperty("user.dir");
@@ -20,8 +22,8 @@ public class ReportGenerator {
     }
 
     @BeforeMethod
-    public void beforeMethod(Method method){
-        test = extent.startTest((this.getClass().getSimpleName()+"::"+method.getName()),method.getName());
+    public void beforeMethod(Method method) {
+        test = extent.startTest((this.getClass().getSimpleName() + "::" + method.getName()), method.getName());
     }
 
     @AfterMethod
@@ -30,7 +32,7 @@ public class ReportGenerator {
     }
 
     @AfterSuite
-    public void afterSuite(){
+    public void afterSuite() {
         extent.flush();
         extent.close();
     }

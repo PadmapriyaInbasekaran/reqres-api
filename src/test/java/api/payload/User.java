@@ -18,7 +18,7 @@ public class User {
     }
 
     String name;
-   String job;
+    String job;
 
     public int getId() {
         return id;
@@ -29,4 +29,4 @@ public class User {
     }
 
     int id;
-    }
+}
