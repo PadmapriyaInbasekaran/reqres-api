@@ -358,3 +358,291 @@ Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1E
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
 CF-RAY: 7c59ea5f7f8bf28e-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Wed, 17 May 2023 11:39:44 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YHsOAvHavK%2F4m57rZTYBTTSZWYlrInYkQfGbYaqQXwDtdyOQK%2FgzlUIRexFYD87U8s1z4eFoD4065P3x2Co749xQr1BQIbslt41uSkEw1Y0FSNgNKfe6r%2FuoLg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c8b94dd7fe6f415-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Wed, 17 May 2023 11:39:44 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=v2sRcLiJm7BH%2BRLg%2Fs5QDstrDnabf7FUqRNy1iiY1vkFqBz89mgDu3KOcsY9FMY6whV6dz89gLg4K9h7FW51N%2Fxj%2BQ5PspSlqMGuJlfs2hXGlATecxPwZ%2BzKYw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c8b94e1ae2ef2eb-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Wed, 17 May 2023 11:39:46 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zGtReGA2EksZXTdj9MvQXsB%2F9ruGcQvtRh8hyuqZ6lAzFMbRQqeOkhpMHzyy8C09o7yT5uUceChxRTW78fk%2BkJ8qa%2Bmo1VbYdQCCWcVotXBE4DjToCJXWgGnrQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c8b94ebdd03854c-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Wed, 17 May 2023 11:47:20 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=An5srlORByAE4lbQ2rnLiGwe3I%2BuTjS7d7HVeEQweGlJZv38qr318XIpDqAYoBGqVUYikePNTofAuCxVKp6P5jhqjinVxn5wgbEg9DroPS5Qd8f%2FiQ1Qp%2Bk7gg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c8ba0048d033194-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Wed, 17 May 2023 11:47:21 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q8%2BliZRRGAAlQWIhDl6oNB0wIKHuXzPtsEn88Ulu7pgKqwwsTRmWSjqAfoa6B8eqf37wkAnpF%2BvvTEwIXdOdX%2FoPS8Rzv%2BCPGo1Bh48H8W%2BxLIWKWNh%2FNTGCig%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c8ba0089d416ee6-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Wed, 17 May 2023 11:47:22 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=goiS1xvrzhAgE8Im1U%2BT3L5ZrTzY5Xn5%2Bsi8%2BywL2qvnLsB%2B0N%2F%2FJYLPslWjPPQ4XVb2Ou9vZ1hTPZtiB5lhSKQroo4enBC31ZNx8ME7ubTXqPZi9g494SDs6g%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c8ba00e5f2ff419-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 19 May 2023 09:36:03 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uqhjEzv1%2FmtFhzVJCgEaeO8hu2fTExfLk63nxZWokkx4e4t6mFIx4W0H4YAADq%2BMDstR8yQio27FvHV3krc5FpkWxg7ywfTb9Jyk72YkkhRf7AmVFBsftxBZ4A%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c9b5a76db911bc6-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 19 May 2023 09:36:04 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=irRlZxv1IapT7upGJXitM1Dh2CNZF4M6i60MxNeH3HWP5Gr3TpIrD56HIHC1OuVM9eCihD5iAJpBXYGtm%2BLUhETncNSLlT6guHWpKkoAhPXo0l25GEhawpkuDA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c9b5a79fae7f567-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 19 May 2023 09:36:04 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wdfYlejKGPp0T%2FjMX%2BY%2FrkG41zFhtewwzc5u%2FpU3%2BduCd8v%2BjuURWYESj85wcx0qOVqoOXAQeL3suDtZAvX9HBE%2BLpQUwE6STNkGUg2t51VKqqCsrsSYwqMZkw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c9b5a7ced8d1bd1-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 19 May 2023 09:41:42 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KrtEgwUfT5hZ3w2SfnKVMqLW0Ki4H3MG8O4dXZ8T%2BuRcH7JeXpa%2B5I4iJySxoFga0D6bzBD0cZh4RwlMgXiZEavPT2ZEBIZ25ZTx42Vf3usR5O%2FQxVJpt3EHqQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c9b62b9dd381bc7-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 19 May 2023 09:41:42 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4b8x%2B62ydX%2BaxDzzB559RrEciomKF%2BgumHEIQDlJwLcad%2FycJbVi6vM9Bx17ACN%2FlxTwASrh0WHZFRmVOdfyu7RwMM9WYQ71pf%2Bo9%2FoTQOOdkh0JlInhFu3qag%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c9b62bd1de831a0-BOM
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 19 May 2023 09:41:43 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=q1xl2tmK1cPt6q2qofRntEiT4ZEnuFMZErmKmgxFadJs3KJG8uQUIxlwqKm1cjWrumBGVm8sMk%2BTUQo3bVrC4Gx4N%2FjDWRqukcp4cTm9V0hJaBJ0tzmnlZsE9g%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7c9b62c04ffbf337-BOM
