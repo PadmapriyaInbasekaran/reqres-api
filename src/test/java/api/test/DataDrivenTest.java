@@ -2,11 +2,9 @@ package api.test;
 
 import api.endpoints.UserEndpoints;
 import api.payload.User;
-import api.utilities.ReportGenerator;
+import api.Reports.ReportGenerator;
 import api.utilities.XLDataProvider;
 import com.relevantcodes.extentreports.LogStatus;
-import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.FileNotFoundException;
