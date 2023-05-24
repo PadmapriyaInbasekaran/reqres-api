@@ -1,0 +1,240 @@
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 1
+}
+HTTP/1.1 200 OK
+Date: Wed, 24 May 2023 09:27:04 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4e-hVtB4Zv3DCsufXo1xFMixIlcriA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dr7grBngDUmwkQ2yW65c2j24xDv7nw4ktCl6mbFrU5St3kgdl%2F2HwOosKOi8fO3HEKKAzXIAVCMVkPd9OBA0NyvRmK%2BcHp99A8VKtqpJKMVyLpz8e4XRFjek7w%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7cc4802bb97b31d5-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 1,
+    "updatedAt": "2023-05-24T09:27:04.482Z"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 2
+}
+HTTP/1.1 200 OK
+Date: Wed, 24 May 2023 09:27:05 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4e-q3eA9+arjG/5F++XOLrNFEPGZg8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BMvGYWX%2FBGrNRRVg478dWRW8l%2B7jKm5VHV3DIpuq8g2pDWMv6RUaANbJQNmVWfPV%2B5ldH%2BInFhKPpTuRUsnYLtW55AbUyzeYJ6JbIbVCUBtXVdjl6vdCuOAKdg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7cc4802ecc3bf4da-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 2,
+    "updatedAt": "2023-05-24T09:27:04.961Z"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 3
+}
+HTTP/1.1 200 OK
+Date: Wed, 24 May 2023 09:27:05 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4e-2yy5/vZZEhjOpSuvrgW7HLIZzSE"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xQ7rWJlbXivTnwys%2BaQOpmx9Lcff3QCwFW9EW7t%2Btr3%2FD69PpCika1v195lij4G4MVYahWV7Foo43YnAgXnKgOk8mwpraheqZjXiNHIM%2BLPpIBND4ldEEIhXPA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7cc480342e1a84d7-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 3,
+    "updatedAt": "2023-05-24T09:27:05.833Z"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 1
+}
+HTTP/1.1 200 OK
+Date: Wed, 24 May 2023 09:31:01 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4e-yJtulsM7+KYpVGgJKKCqjY3aH4Y"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8kp5yuCatr8gucRMWzW2OXyglPIM9TbmHXgHTdj4iA57xqe5cnGk9EQh5GWlHs2zhrqc0x9HXyTnJicr6q2JRw8ThEx1Tq6PhfFWNmlDYJBiguduhqTZRn6ZCg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7cc485f4bfd985d6-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 1,
+    "updatedAt": "2023-05-24T09:31:01.443Z"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 2
+}
+HTTP/1.1 200 OK
+Date: Wed, 24 May 2023 09:31:01 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4e-bV/JHVSufTDQPHKJwVLx2BR7GLc"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OjZZJV6mwpiCsSVvl7%2BGnijZh%2FyrQzQLQTugDBK%2F1v29WD1D0CHdW%2F2xzjwZ8aKmCu010%2Bzuh6Xn%2FBsbkzDS%2FYt4e2au4NWqvakMVZa7X7QMGQ1vyPS8RD2xXA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7cc485f749d3862d-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 2,
+    "updatedAt": "2023-05-24T09:31:01.855Z"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 3
+}
+HTTP/1.1 200 OK
+Date: Wed, 24 May 2023 09:31:02 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4e-l/Y9a1mED0qtD6jhHzTzv35XEC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WB2VHZctLJ%2Fz6Bo8JfLq1NHhp02o0b%2BqyO834LZRfuJkQp21%2F3OaJawCIWj%2FUIp9S%2BhMGSnJWnJm720kePrxfvscWLoLO0j%2BNpRhSm3NGo1rQwEK549bUBhz0w%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7cc485fb2c568614-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Padmapriya",
+    "job": null,
+    "id": 3,
+    "updatedAt": "2023-05-24T09:31:02.461Z"
+}

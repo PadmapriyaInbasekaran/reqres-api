@@ -6,4 +6,5 @@ public class Constants {
     public static String get_url = base_url + "api/users/";
     public static String put_url = base_url + "api/users/";
     public static String delete_url = base_url + "api/users/";
+    public static String excelPath = "//testData//Users.xlsx";
 }

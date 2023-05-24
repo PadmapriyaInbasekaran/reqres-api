@@ -1,5 +1,6 @@
 package api.utilities;
 
+import api.endpoints.Constants;
 import org.testng.annotations.DataProvider;
 
 import java.io.IOException;
@@ -8,8 +9,8 @@ public class XLDataProvider {
 
     @DataProvider(name = "Data")
     public Object[][] getAllData() throws IOException {
-        String path = System.getProperty("user.dir") + "//testData//Users.xlsx";
-        XLUtility xl = new XLUtility(path);
+        String filePath = System.getProperty("user.dir") + Constants.excelPath;
+        XLUtility xl = new XLUtility(filePath);
 
         int rownum = xl.getRowCount("Sheet1");
         int colcount = xl.getCellCount("Sheet1", 1);
