@@ -1,4 +1,4 @@
-package api.Reports;
+package api.reports;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -10,14 +10,14 @@ import org.testng.annotations.BeforeSuite;
 import java.io.File;
 import java.lang.reflect.Method;
 
-public class ReportGenerator {
+public class ExternalReport {
     public static ExtentReports extent;
     public static ExtentTest test;
 
     @BeforeSuite
     public void beforeSuite() {
         String USER_DIRECTORY = System.getProperty("user.dir");
-        String extentPath = USER_DIRECTORY + File.separator + "reports" + File.separator + "ReqresAPI.html";
+        String extentPath = USER_DIRECTORY + File.separator + "test-output" + File.separator + "ReqresAPI.html";
         extent = new ExtentReports(extentPath);
     }
 
@@ -36,4 +36,6 @@ public class ReportGenerator {
         extent.flush();
         extent.close();
     }
+
+
 }
